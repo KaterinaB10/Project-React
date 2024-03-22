@@ -23,5 +23,6 @@ function App() {
     </BrowserRouter>
   );
 }
+//if we have enough time, then we will make NotFoundPage
 
 export default App;
