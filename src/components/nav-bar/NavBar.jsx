@@ -1,9 +1,10 @@
 import { NavButtons } from "./NavButtons";
+import "./navBar.css";
 
 export function NavBar() {
   return (
-    <nav className="fixed-navbar">
+    <div className="fixed-navbar">
       <NavButtons />
-    </nav>
+    </div>
   );
 }
