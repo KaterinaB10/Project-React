@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+//components
 import { Layout } from "./pages/Layout";
 import { LandingPage } from "./pages/LandingPage";
 import { AboutUsPage } from "./pages/about-us-page/AboutUsPage";
