@@ -1,8 +1,9 @@
 import { NavLink } from "react-router-dom";
+import "./navButtons.module.css";
 
 export function NavButtons() {
   return (
-    <nav>
+    <nav className="nav-buttons-container">
       <NavLink
         to="/"
         className={({ isActive, isPending }) =>
