@@ -1,3 +1,3 @@
-export function ArticlesPage(){
-    return()
+export function ArticlesPage() {
+  return <h1>ArticlesPage</h1>;
 }

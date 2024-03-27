@@ -1,0 +1,21 @@
+.fixed-navbar {
+  background-color: #efefef;
+  height: 7em;
+  padding: 2.188em 0.313em 0.625em 0.313em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (min-width: 840px) {
+  .fixed-navbar {
+    height: 5.125em;
+    padding: 0em 7.313em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: none;
+  }
+}

@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  gap: 12px;
+}
+
+nav a {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 700;
+  font-size: 0.813rem;
+  text-decoration: none;
+  color: #262626;
+  transition: 0.5s;
+}
+
+nav a:hover {
+  color: #f5a93d;
+}
+
+@media (min-width: 840px) {
+  nav {
+    gap: 40px;
+  }
+
+  nav a {
+    font-size: 0.875rem;
+  }
+}
