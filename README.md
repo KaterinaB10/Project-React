@@ -1,8 +1,25 @@
-# React + Vite
+# React-project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to our project! We're three people working on creating a project in association with Kodehode and/or Jobloop. This project focuses on working with React and Vite. The goal is to create a blog for beginners, up-and-coming, and returning developers alike.
 
-Currently, two official plugins are available:
+In this project, we'll be using:
+- Figma (for planning) 
+https://www.figma.com/file/h8WThvPDq1ZQOElEA9BRzU/Project-React?type=design&node-id=0-1&mode=design&t=FwJkUV1etdmxKPfj-0 
+- React
+- Vite
+- Html
+- CSS
+- JavaScript
+- and Conduit API
+https://github.com/gothinkster/realworld/blob/main/api/openapi.yml 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The reasoning behind this is because it's good practice for us, and if we manage to do this properly, then we'll have an easier time with our future projects.
+
+Our project can be reached at [provide URL/link here], where you'll get to check out everything mentioned above.
+
+The project shouldn't be that difficult to use when completed and should, in theory, be accessible for everyone.
+
+Authors and developers of the project:
+- Trond-Morten Reknes
+- Katerina Bredikhina
+- Joakim R
