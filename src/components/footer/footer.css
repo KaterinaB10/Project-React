@@ -1,0 +1,26 @@
+.footer-container {
+  padding: 1.938em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #262626;
+  border-top-width: 6px;
+  border-top-style: solid;
+  border-image: linear-gradient(0.3turn, #f5a93d, #7dc07d) 1;
+}
+
+.footer-item {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #efefef;
+}
+
+@media (min-width: 840px) {
+  .footer-item {
+    font-size: 0.875rem;
+  }
+}
