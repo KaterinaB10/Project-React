@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import "./navButtons.module.css";
+import "./navButtons.css";
 
 export function NavButtons() {
   return (
