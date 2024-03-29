@@ -1,5 +1,5 @@
 .fixed-navbar {
-  background-color: #efefef;
+  background-color: var(--back-color);
   height: 7em;
   padding: 2.188em 0.313em 0.625em 0.313em;
   display: flex;
@@ -18,4 +18,14 @@
     justify-content: space-between;
     gap: none;
   }
+}
+
+/* Light theme */
+html[data-theme="light"] {
+  --back-color: #efefef;
+}
+
+/* Dark theme */
+html[data-theme="dark"] {
+  --back-color: #262626;
 }
