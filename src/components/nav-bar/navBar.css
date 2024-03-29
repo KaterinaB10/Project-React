@@ -8,6 +8,13 @@
   gap: 5px;
 }
 
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
 @media (min-width: 840px) {
   .fixed-navbar {
     height: 5.125em;
@@ -17,6 +24,14 @@
     align-items: center;
     justify-content: space-between;
     gap: none;
+  }
+
+  .buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
   }
 }
 
