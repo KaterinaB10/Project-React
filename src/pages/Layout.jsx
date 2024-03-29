@@ -5,7 +5,7 @@ import { Footer } from "../components/footer/Footer";
 export function Layout() {
   return (
     <>
-      <header>
+      <header className="header">
         <NavBar />
       </header>
       <main>

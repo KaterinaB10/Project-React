@@ -1,7 +1,14 @@
 .fixed-navbar {
-  background-color: #efefef;
+  background-color: var(--back-color);
   height: 7em;
   padding: 2.188em 0.313em 0.625em 0.313em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.buttons-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,4 +25,22 @@
     justify-content: space-between;
     gap: none;
   }
+
+  .buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+}
+
+/* Light theme */
+html[data-theme="light"] {
+  --back-color: #efefef;
+}
+
+/* Dark theme */
+html[data-theme="dark"] {
+  --back-color: #262626;
 }
