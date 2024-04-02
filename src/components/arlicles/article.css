@@ -1,0 +1,25 @@
+/* font-family: "Merriweather Sans", sans-serif;
+  font-weight: 700;
+  font-size: 0.813rem;
+  
+    font-family: "Montserrat", sans-serif;
+  */
+.article-container {
+  font-family: "Montserrat", sans-serif;
+}
+
+.article-description {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.article-container-additional {
+  font-size: 0.875rem;
+  font-weight: 700;
+}

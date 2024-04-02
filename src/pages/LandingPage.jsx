@@ -5,8 +5,8 @@ export function LandingPage() {
     <main>
       <h1>Landing page</h1>
       <Article
-        title="article"
-        shortDescription="short description will be here"
+        title="Introducing to coding"
+        shortDescription="Short description of Introducing to coding post."
         date="02.04.2024"
       />
     </main>

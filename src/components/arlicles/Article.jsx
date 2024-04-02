@@ -1,13 +1,15 @@
+import "./article.css";
+
 export function Article(props) {
   return (
     <div className="article-container">
       <div className="article-container-main">
-        <h1>{props.title}</h1>
-        <p>{props.shortDescription}</p>
+        <h1 className="article-title">{props.title}</h1>
+        <p className="article-description">{props.shortDescription}</p>
       </div>
       <div className="article-container-additional">
-        <p>{props.date}</p>
-        <button>read more...</button>
+        <p className="article-date">{props.date}</p>
+        <a className="read-more-button">Read more...</a>
       </div>
     </div>
   );
