@@ -1,11 +1,10 @@
-/* font-family: "Merriweather Sans", sans-serif;
-  font-weight: 700;
-  font-size: 0.813rem;
-  
-    font-family: "Montserrat", sans-serif;
-  */
 .article-container {
   font-family: "Montserrat", sans-serif;
+  color: var(--text-color);
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+  cursor: pointer;
 }
 
 .article-description {
@@ -14,12 +13,45 @@
   font-weight: 400;
 }
 
-h1 {
+.article-title {
   font-size: 1.25rem;
   font-weight: 700;
+  transition: 1s;
 }
 
-.article-container-additional {
-  font-size: 0.875rem;
+.article-title-hovered {
+  font-size: 1.313rem;
+  transition: 1s;
+}
+
+.article-container-additional,
+.read-more-button {
+  font-size: 0.75rem;
   font-weight: 700;
+  color: #71717a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5em;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.read-more-button-hovered {
+  background-image: linear-gradient(0.3turn, #f5a93d, #7dc07d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  transition: 1s;
+}
+
+@media (min-width: 840px) {
+  .article-container-additional,
+  .read-more-button-hovered,
+  .read-more-button {
+    font-size: 0.875rem;
+    transition: 1s;
+  }
 }

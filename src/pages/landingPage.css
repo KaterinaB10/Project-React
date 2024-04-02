@@ -1,0 +1,16 @@
+/* Light theme */
+html[data-theme="light"] {
+  --text-color: #000000;
+  --layout-background: #efefef;
+}
+
+/* Dark theme */
+html[data-theme="dark"] {
+  --text-color: #efefef;
+  --layout-background: #262626;
+}
+
+/* Layout background */
+body {
+  background-color: var(--layout-background);
+}
