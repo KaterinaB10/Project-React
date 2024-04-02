@@ -1,10 +1,13 @@
+/* Layout */
+
 .article-container {
-  font-family: "Montserrat", sans-serif;
-  color: var(--text-color);
   width: 85%;
+  height: 5.846em;
   margin: 0 auto;
   position: relative;
   cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  color: var(--text-color);
 }
 
 .article-description {
@@ -44,10 +47,15 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  transition: 1s;
+  transition: 0.2s;
 }
 
 @media (min-width: 840px) {
+  .article-container {
+    height: 6.688em;
+    width: 81.5%;
+  }
+
   .article-container-additional,
   .read-more-button-hovered,
   .read-more-button {
