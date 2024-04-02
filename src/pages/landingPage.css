@@ -2,12 +2,16 @@
 html[data-theme="light"] {
   --text-color: #000000;
   --layout-background: #efefef;
+  --hero-section-background: #262626;
+  --hero-section-text-color: #efefef;
 }
 
 /* Dark theme */
 html[data-theme="dark"] {
   --text-color: #efefef;
   --layout-background: #262626;
+  --hero-section-background: #efefef;
+  --hero-section-text-color: #262626;
 }
 
 /* Layout background */
