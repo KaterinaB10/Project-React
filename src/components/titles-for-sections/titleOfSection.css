@@ -1,0 +1,40 @@
+.title-section-container {
+  margin: 0.625em auto;
+  width: 85%;
+  display: flex;
+  align-items: center;
+}
+
+.title-section-container h1 {
+  min-width: 30%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+
+.title-line {
+  height: 0.125em;
+  width: 100%;
+  background-color: var(--text-color);
+}
+
+@media (min-width: 840px) {
+  .title-section-container {
+    margin: 2em 0;
+    margin-left: 9.25%;
+    width: 57%;
+  }
+
+  .title-section-container h1 {
+    min-width: 15%;
+    font-size: 0.875rem;
+  }
+
+  .title-line {
+    height: 0.125em;
+    width: 100%;
+    background-color: var(--text-color);
+  }
+}
