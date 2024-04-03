@@ -1,0 +1,8 @@
+.left-side-section {
+  width: 40em;
+}
+.left-side-section .title-line {
+  height: 0.125em;
+  width: 86.5%;
+  background-color: var(--text-color);
+}

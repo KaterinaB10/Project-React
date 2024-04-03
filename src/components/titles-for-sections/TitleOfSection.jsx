@@ -1,4 +1,3 @@
-import { width } from "@mui/system";
 import "./titleOfSection.css";
 
 export function TitleOfSection(props) {

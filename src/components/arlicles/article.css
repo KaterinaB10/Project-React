@@ -53,6 +53,7 @@
 @media (min-width: 840px) {
   .article-container {
     height: 6.688em;
+    width: 100%;
   }
 
   .article-container-additional,
