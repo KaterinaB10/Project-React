@@ -1,0 +1,24 @@
+.title-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.title-section-container h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+
+@media (min-width: 840px) {
+  .title-section-container {
+    margin: 2em 0;
+  }
+
+  .title-section-container h1 {
+    font-size: 0.875rem;
+  }
+}

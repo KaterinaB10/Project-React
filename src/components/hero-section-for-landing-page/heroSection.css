@@ -1,5 +1,5 @@
 /* Layout */
-section {
+.hero-section {
   background-color: var(--hero-section-background);
 }
 
