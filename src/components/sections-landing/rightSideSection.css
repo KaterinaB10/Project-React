@@ -1,9 +1,11 @@
-.right-side-section {
-  width: 20em;
-}
-
 .right-side-section .title-line {
   height: 0.125em;
   width: 59%;
   background-color: var(--text-color);
+}
+
+@media (min-width: 840px) {
+  .right-side-section {
+    width: 20em;
+  }
 }
