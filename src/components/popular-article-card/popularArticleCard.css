@@ -1,6 +1,8 @@
 section .popular-article-card {
   margin: 0.625em 0;
   border: 0.75px solid #71717a;
+  position: relative;
+  height: 18.885em;
 }
 
 .popular-article-image-container img {
@@ -25,6 +27,13 @@ section .popular-article-card {
   align-items: center;
 }
 
+.read-more-img {
+  transition: 1s;
+}
+.read-more-img:hover {
+  transition: 1s;
+}
+
 .read-more-link img {
   height: 40px;
   width: 40px;
@@ -32,11 +41,20 @@ section .popular-article-card {
 }
 
 /* Typography */
-.popular-article-title-container h1 {
+.popular-article-title {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: 700;
   color: var(--text-color);
+  transition: 1s;
+}
+
+.popular-article-title-hovered {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-color);
+  transition: 1s;
 }
 
 .popular-article-title-container p {
@@ -56,6 +74,9 @@ section .popular-article-card {
 /* Web version */
 
 @media (min-width: 840px) {
+  section .popular-article-card {
+    height: 20em;
+  }
   .popular-article-image-container img {
     height: 180px;
   }

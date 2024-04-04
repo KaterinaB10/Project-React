@@ -1,11 +1,17 @@
 .left-side-section .title-line {
   height: 0.125em;
-  width: 86.5%;
+  width: 73%;
   background-color: var(--text-color);
 }
 
 @media (min-width: 840px) {
   .left-side-section {
     width: 40em;
+  }
+
+  .left-side-section .title-line {
+    height: 0.125em;
+    width: 86.5%;
+    background-color: var(--text-color);
   }
 }
