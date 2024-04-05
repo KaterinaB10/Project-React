@@ -6,7 +6,7 @@ import "./landingPage.css";
 export function LandingPage() {
   return (
     <main>
-      <HeroSection />
+      <HeroSection className="hero-section" />
       <div className="flex-content">
         <LeftSectionLanding />
         <RightSectionLanding />
