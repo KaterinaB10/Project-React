@@ -1,4 +1,3 @@
-import { Article } from "../arlicles/Article";
 import { TitleOfSection } from "../titles-for-sections/TitleOfSection";
 import { ArticlesList } from "../arlicles/ArticlesList";
 import "./leftSideSection.css";
