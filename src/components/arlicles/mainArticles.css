@@ -1,0 +1,69 @@
+/* Layout */
+
+.articles-main {
+  width: 100%;
+  margin: 2em auto 3em auto;
+  position: relative;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  color: var(--text-color);
+}
+
+.article-description {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0.5em 0;
+}
+
+.article-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  transition: 1s;
+}
+
+.article-title-hovered {
+  font-size: 1.313rem;
+  transition: 1s;
+}
+
+.image-main-container img {
+  width: 100%;
+}
+
+.article-container-additional,
+.read-more-button {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #71717a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5em;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.read-more-button-hovered {
+  background-image: linear-gradient(0.3turn, #f5a93d, #7dc07d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  transition: 0.2s;
+}
+
+@media (min-width: 840px) {
+  .article-container {
+    height: 6.688em;
+    width: 100%;
+  }
+
+  .article-container-additional,
+  .read-more-button-hovered,
+  .read-more-button {
+    font-size: 0.875rem;
+    transition: 1s;
+  }
+}
