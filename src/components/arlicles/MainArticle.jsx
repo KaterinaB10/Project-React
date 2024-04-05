@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import heroImage from "../../assets/images/Main-image.svg"; // Import the hero image
 import "./article.css";
 
 export function Article(props) {
@@ -17,9 +16,8 @@ export function Article(props) {
           {props.title}
         </h1>
         <p className="article-description">{props.shortDescription}</p>
-        {/* Use the imported heroImage directly */}
         <img
-          src={heroImage} 
+          src={props.imageUrl} // Use the imageUrl prop passed from parent component
           alt="Article Image"
           className="article-image"
         />
