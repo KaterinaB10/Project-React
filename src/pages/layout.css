@@ -1,0 +1,7 @@
+body {
+  position: relative;
+}
+
+.header {
+  position: sticky;
+}
