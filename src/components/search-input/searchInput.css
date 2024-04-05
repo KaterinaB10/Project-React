@@ -1,0 +1,16 @@
+.search-field {
+  margin: 0 auto;
+  padding: 0.5em 1.188em;
+  height: 3.5em;
+  width: 35em;
+  color: #71717a;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1rem;
+  border-radius: 14px;
+  border: 1px solid #71717a;
+}
+
+.search-field img {
+  height: 40px;
+  width: 40px;
+}
