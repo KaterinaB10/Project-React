@@ -8,11 +8,6 @@ export function LeftSectionLanding() {
     <section className="left-side-section">
       <TitleOfSection title="All posts" />
       <ArticlesList />
-      <Article
-        title="Introducing to coding"
-        shortDescription="Short description of Introducing to coding post."
-        date="02.04.2024"
-      />
     </section>
   );
 }
