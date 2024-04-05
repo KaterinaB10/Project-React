@@ -2,19 +2,31 @@
   margin: 0 auto;
   padding: 0.5em 1.188em;
   height: 3.5em;
-  width: 35em;
+  width: 30em;
   color: #71717a;
   font-family: "Merriweather Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 0.75rem;
   border-radius: 14px;
   border: 1px solid #71717a;
 }
 
 .search-field img {
-  height: 40px;
-  width: 40px;
+  height: 16.11px;
+  width: 16.11px;
 }
 
 .search-results li {
   list-style: none;
+}
+
+@media (min-width: 840px) {
+  .search-field {
+    width: 35em;
+    font-size: 1rem;
+  }
+
+  .search-field img {
+    height: 40px;
+    width: 40px;
+  }
 }
