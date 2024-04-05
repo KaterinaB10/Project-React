@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import heroImage from "../../assets/images/Main-image.svg"; // Import the hero image
 import "./article.css";
 
 export function Article(props) {
@@ -17,12 +16,6 @@ export function Article(props) {
           {props.title}
         </h1>
         <p className="article-description">{props.shortDescription}</p>
-        {/* Use the imported heroImage directly */}
-        <img
-          src={heroImage} 
-          alt="Article Image"
-          className="article-image"
-        />
       </div>
       <div className="article-container-additional">
         <p className="article-date">{props.date}</p>

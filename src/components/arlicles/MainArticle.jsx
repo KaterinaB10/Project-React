@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import articleImage from "../../assets/images/Main-article-image.svg";
 import "./article.css";
 
 export function Article(props) {
@@ -16,11 +17,7 @@ export function Article(props) {
           {props.title}
         </h1>
         <p className="article-description">{props.shortDescription}</p>
-        <img
-          src={props.imageUrl} // Use the imageUrl prop passed from parent component
-          alt="Article Image"
-          className="article-image"
-        />
+        <img src={articleImage} alt="Article Image" className="article-image" />
       </div>
       <div className="article-container-additional">
         <p className="article-date">{props.date}</p>

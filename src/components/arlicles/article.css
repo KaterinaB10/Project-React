@@ -22,12 +22,6 @@
   transition: 1s;
 }
 
-.article-image {
-  max-width: 100%;
-  height: auto;
-  margin-top: 10px;
-}
-
 .article-title-hovered {
   font-size: 1.313rem;
   transition: 1s;
