@@ -1,5 +1,6 @@
 .buttons-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin-top: 2em;
@@ -7,6 +8,7 @@
 
 .buttons-list li {
   list-style: none;
+  margin-bottom: 1em;
 }
 
 .tag-btn {
