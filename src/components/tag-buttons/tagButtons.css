@@ -1,0 +1,30 @@
+.buttons-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.buttons-list li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+.tag-btn {
+  color: #71717a;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 0.5em 1em;
+  border: 1px solid #71717a;
+  border-radius: 9px;
+  transition: 0.5s;
+}
+
+.tag-btn:hover {
+  color: #000;
+  border-color: #000;
+  background-color: #f5a93d;
+  transition: 0.5s;
+}
