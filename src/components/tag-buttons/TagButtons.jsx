@@ -17,7 +17,7 @@ export function TagButtons() {
       <ul className="buttons-list">
         {uniqueTagList.map((tag, index) => (
           <li key={index}>
-            <button>{tag}</button>
+            <button className="tag-btn">#{tag}</button>
           </li>
         ))}
       </ul>
