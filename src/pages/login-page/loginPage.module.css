@@ -1,8 +1,7 @@
 .containerStyle {
-  height: 40em;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   align-items: flex-start;
   margin-bottom: -2em;
 }
@@ -12,15 +11,15 @@
   color: var(--text-color);
   text-align: center;
   height: 100%;
-  width: 55%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .rightSection {
-  height: 100%;
-  width: 45%;
+  height: 11.408em;
+  width: 100%;
   background-image: linear-gradient(0.2turn, #f5a93d, #7dc07d);
   display: flex;
   flex-direction: column;
@@ -29,14 +28,42 @@
 }
 
 .imageContainerStyle img {
-  height: 14.188em;
+  height: 8.043em;
 }
 
 .rightSectionText {
   font-family: "Merriweather Sans", sans-serif;
-  font-size: 2rem;
+  font-size: 1.134rem;
   font-weight: 700;
   color: #262626;
+}
+
+/* Web version */
+
+@media (min-width: 840px) {
+  .containerStyle {
+    height: 40em;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .infoBoxStyle {
+    height: 100%;
+    width: 55%;
+  }
+
+  .rightSection {
+    height: 100%;
+    width: 45%;
+  }
+
+  .imageContainerStyle img {
+    height: 14.188em;
+  }
+
+  .rightSectionText {
+    font-size: 2rem;
+  }
 }
 
 /* Dark/Light theme settings */
