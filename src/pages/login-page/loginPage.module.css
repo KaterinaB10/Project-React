@@ -1,0 +1,58 @@
+.containerStyle {
+  height: 40em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: -2em;
+}
+
+.infoBoxStyle {
+  background-color: var(--section-background);
+  color: var(--text-color);
+  text-align: center;
+  height: 100%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rightSection {
+  height: 100%;
+  width: 45%;
+  background-image: linear-gradient(0.2turn, #f5a93d, #7dc07d);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageContainerStyle img {
+  height: 14.188em;
+}
+
+.rightSectionText {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #262626;
+}
+
+/* Dark/Light theme settings */
+
+/* Light theme */
+html[data-theme="light"] {
+  --section-background: #efefef;
+  --text-color: #000000;
+  --text-header-color: #efefef;
+  --header-background: #262626;
+}
+
+/* Dark theme */
+html[data-theme="dark"] {
+  --section-background: #262626;
+  --text-color: #efefef;
+  --text-header-color: #262626;
+  --header-background: #efefef;
+}
