@@ -4,6 +4,7 @@ html[data-theme="light"] {
   --layout-background: #efefef;
   --hero-section-background: #262626;
   --hero-section-text-color: #efefef;
+  --btn-background: #efefef;
 }
 
 /* Dark theme */
@@ -12,6 +13,7 @@ html[data-theme="dark"] {
   --layout-background: #262626;
   --hero-section-background: #efefef;
   --hero-section-text-color: #262626;
+  --btn-background: #262626;
 }
 
 /* Layout background */

@@ -16,7 +16,7 @@
   font-family: "Merriweather Sans", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
-  background-color: none;
+  background-color: var(--btn-background);
   padding: 0.5em 1em;
   border: 1px solid #71717a;
   border-radius: 9px;
@@ -25,7 +25,38 @@
 
 .tag-btn:hover {
   color: #000;
-  border-color: #000;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 0.5em 1em;
+  border: 1px solid #000;
+  border-radius: 9px;
+  transition: 0.5s;
   background-color: #f5a93d;
+  transition: 0.5s;
+}
+
+.hovered-tag {
+  color: #000;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 0.5em 1em;
+  border: 1px solid #000;
+  border-radius: 9px;
+  transition: 0.5s;
+  background-color: #f5a93d;
+  transition: 0.5s;
+}
+
+.active-tag {
+  color: #f5a93d;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  background-color: var(--btn-background);
+  padding: 0.5em 1em;
+  border: 1px solid #f5a93d;
+  border-radius: 9px;
   transition: 0.5s;
 }
