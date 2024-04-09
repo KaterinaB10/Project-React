@@ -15,7 +15,7 @@ export function TagButtons() {
 
   const uniqueTagList = Array.from(uniqueTags);
 
-  const [hover, setHover] = useState(false);
+  const [hover, setHover] = useState(null);
 
   return (
     <div className="tag-buttons-container">
@@ -26,12 +26,12 @@ export function TagButtons() {
               className={
                 activeClass === tag
                   ? "active-tag"
-                  : hover
+                  : hover === tag
                   ? "hovered-tag"
                   : "tag-btn"
               }
-              onMouseEnter={() => setHover(true)}
-              onMouseLeave={() => setHover(false)}
+              onMouseEnter={() => setHover(tag)}
+              onMouseLeave={() => setHover(null)}
               onClick={() => setActiveClass(tag)}
             >
               #{tag}
