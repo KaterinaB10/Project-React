@@ -1,8 +1,9 @@
 import { TitleOfSection } from "../titles-for-sections/TitleOfSection";
-import { ArticlesList } from "../arlicles/ArticlesList";
 import { SearchInput } from "../search-input/SearchInput";
-import { MainArticle } from "../arlicles/MainArticle";
+import { ArticlesList } from "../arlicles/ArticlesList";
 import { TagButtons } from "../tag-buttons/TagButtons";
+import { MainArticle } from "../arlicles/MainArticle";
+import articles from "../../articlesData.json";
 import "./leftSideSection.css";
 
 export function LeftSectionLanding() {
