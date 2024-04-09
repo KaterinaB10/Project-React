@@ -5,7 +5,7 @@ import arrowReadMoreHover from "../../assets/images/arrow-read-more-hover.svg";
 import articleImage from "../../assets/images/Image-article.svg";
 import "./popularArticleCard.css";
 
-export function PopularArticleCard() {
+export function PopularArticleCard(props) {
   const [hover, setHover] = useState(false);
 
   return (
@@ -15,7 +15,7 @@ export function PopularArticleCard() {
       onMouseLeave={() => setHover(false)}
     >
       <div className="popular-article-image-container">
-        <img src={articleImage} alt="" />
+        <img src={props.img} alt="" />
       </div>
       <div className="popular-article-info-container">
         <div className="popular-article-title-container">
@@ -24,12 +24,12 @@ export function PopularArticleCard() {
               hover ? "popular-article-title-hovered" : "popular-article-title"
             }
           >
-            Introducing to coding
+            {props.title}
           </h1>
-          <p>Short description of Introducing to coding post.</p>
+          <p>{props.shortDescription}</p>
         </div>
         <div className="popular-article-additional-container">
-          <p>03.04.2024</p>
+          <p>{props.date}</p>
           <Link to="/about-us" className="read-more-link">
             <img
               src={hover ? arrowReadMoreHover : arrowReadMore}

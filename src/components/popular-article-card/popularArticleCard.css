@@ -2,7 +2,6 @@ section .popular-article-card {
   margin: 0.625em 0;
   border: 0.75px solid #71717a;
   position: relative;
-  height: 18.885em;
 }
 
 .popular-article-image-container img {
@@ -75,7 +74,7 @@ section .popular-article-card {
 
 @media (min-width: 840px) {
   section .popular-article-card {
-    height: 20em;
+    margin-bottom: 2em;
   }
   .popular-article-image-container img {
     height: 180px;
