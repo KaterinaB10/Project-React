@@ -22,4 +22,3 @@ The project shouldn't be that difficult to use when completed and should, in the
 Authors and developers of the project:
 - Trond-Morten Reknes
 - Katerina Bredikhina
-- Joakim R
